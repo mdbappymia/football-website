@@ -70,6 +70,18 @@ nav {
   display: flex;
   align-items: center;
 }
+.header-content:hover .half-width img {
+  transition: 2s ease-in-out;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transition: 2s ease-in-out;
+  -moz-transition: 2s ease-in-out;
+  -ms-transition: 2s ease-in-out;
+  -o-transition: 2s ease-in-out;
+}
 .half-width {
   width: 50%;
 }
