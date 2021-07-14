@@ -1,0 +1,60 @@
+/* All used fonts */
+@import url("https://fonts.googleapis.com/css2?family=Niconne&family=Poppins:wght@400;700&display=swap");
+
+/* Utlities */
+body {
+  /* font-family: "Niconne", cursive; */
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Header content */
+.header-section {
+  background-color: #3346a0;
+}
+.header-content {
+  display: flex;
+  margin: 0 100px;
+  display: flex;
+  align-items: center;
+}
+.half-width {
+  width: 50%;
+  margin: 0 50px;
+}
+.half-width img {
+  width: 100%;
+  margin: 67px 0;
+}
+.header-title {
+  font-size: 64px;
+  color: #ffffff;
+  line-height: 80px;
+  margin: 0;
+}
+.play-button {
+  background-color: #e02c6d;
+  margin-top: 27px;
+  padding: 10px 24px;
+  border: none;
+  color: #ffffff;
+}
+
+/* Player Gallary */
+.players-galary {
+  margin: 70px 200px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.player {
+  box-shadow: 10px 10px 30px gray;
+}
+.player-blog {
+  margin: 15px;
+}
+.player-image {
+  width: 100%;
+}
